@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/Fundo.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #010029;
+}
+
+body * {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    padding-top: 32px;
+    height: calc(120px + 32px);
+}
+
+header div {
+    background-image: linear-gradient(90deg, red 0%, purple 50%, blue 100%);
+    width: 120px;
+    padding: 4px;
+    display: flex;
+    border-radius: 50%;
+    margin: auto;
+    animation: toTop .8s .2s backwards;
+}
+
+header div img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+main {
+    width: 500px ;
+    margin: 24px auto;
+    display: grid;
+    gap: 24px;
+}
+
+section {
+    padding-top: 4px;
+    background-image: linear-gradient(90deg, red 0%, purple 50%, blue 100%);
+    border-radius: 8px;
+    animation: toBottom .8s backwards;
+}
+
+section div{
+    padding: 24px 32px;
+    border-radius: 8px;
+    background-color: #2A2634;
+}
+
+section:nth-child(1){
+    animation-delay: .1s;
+}
+
+section:nth-child(2){
+    animation-delay: .4s;
+}
+
+section:nth-child(3){
+    animation-delay: .8s;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.learn-list img{
+    width: 70px;
+    border-radius: 7px;
+    border: 2px solid white
+}
+
+.studying-list img {
+    width: 70px;  
+    border-radius: 7px;
+    border: 2px solid white;  
+}
+
+.social-list div {
+    height: 150px;
+    gap: 10px;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+h2{
+    color: white;
+}
+
+p {
+    color: #A1A1AA;
+    font-size: 20px;
+}
+
+/*Animações */
+@keyframes toTop{
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes toBottom{
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
