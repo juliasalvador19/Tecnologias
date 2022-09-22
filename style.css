@@ -73,7 +73,7 @@ section:nth-child(3){
     animation-delay: .8s;
 }
 
-ul {
+section div ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -81,16 +81,10 @@ ul {
     margin-top: 24px;
 }
 
-.learn-list img{
+.learn-list img, .studying-list img {
     width: 70px;
     border-radius: 7px;
     border: 2px solid white
-}
-
-.studying-list img {
-    width: 70px;  
-    border-radius: 7px;
-    border: 2px solid white;  
 }
 
 .social-list ul{
