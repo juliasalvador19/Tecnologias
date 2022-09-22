@@ -41,6 +41,7 @@ header div:hover {
 }
 
 main {
+    max-width: 485px;
     width: 500px ;
     margin: 24px auto;
     display: grid;
