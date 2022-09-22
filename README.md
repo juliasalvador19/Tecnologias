@@ -1,6 +1,6 @@
 # Tecnologias 
 
-![preview](./.github/preview.png)
+![preview](./github/preview.png)
 
 > Tecnologias que estou aprendendo e que possuo interesse em aprender
 
