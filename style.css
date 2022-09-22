@@ -42,7 +42,7 @@ header div:hover {
 
 main {
     max-width: 485px;
-    width: 500px ;
+    width: 90%;
     margin: 24px auto;
     display: grid;
     gap: 24px;
@@ -93,9 +93,8 @@ ul {
     border: 2px solid white;  
 }
 
-.social-list div {
-    height: 150px;
-    gap: 10px;
+.social-list ul{
+    gap: 5px;
 }
 
 ul li:hover{
